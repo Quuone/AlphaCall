@@ -1,0 +1,235 @@
+<html>
+<head>
+<script type="text/javascript">
+function loadXMLDoc(filename)
+{
+if (window.ActiveXObject)
+  {
+  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+  }
+else 
+  {
+  xhttp = new XMLHttpRequest();
+  }
+xhttp.open("GET", filename, false);
+try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+function displayResult_1()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_1.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_1").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_1").appendChild(resultDocument);
+  }
+}
+function displayResult_2()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_2.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_2").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_2").appendChild(resultDocument);
+  }
+}
+function displayResult_3()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_3.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_3").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_3").appendChild(resultDocument);
+  }
+}
+function displayResult_4()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_4.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_4").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_4").appendChild(resultDocument);
+  }
+}
+function displayResult_5()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_5.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_5").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_5").appendChild(resultDocument);
+  }
+}
+function displayResult_6()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_6.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_6").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_6").appendChild(resultDocument);
+  }
+}
+function displayResult_7()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_7.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_7").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_7").appendChild(resultDocument);
+  }
+}
+function displayResult_8()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_8.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_8").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_8").appendChild(resultDocument);
+  }
+}
+function displayResult_9()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_9.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_9").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_9").appendChild(resultDocument);
+  }
+}
+function displayResult_10()
+{
+xml = loadXMLDoc("phoneCallList_v2.xml");
+xsl = loadXMLDoc("phoneCallList_10.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example_10").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example_10").appendChild(resultDocument);
+  }
+}
+</script>
+</head>
+<body>
+<div id="example_1"><button type="button" onclick="displayResult_1()"><h3>1. PhoneCall List</h3></button></div>
+
+<div id="example_2"><button type="button" onclick="displayResult_2()"><h3>2. Person Info (3/21 PhoneCall with Aviv)</h3></button></div>
+
+<div id="example_3"><button type="button" onclick="displayResult_3()"><h3>3. Importance (3/21 PhoneCall with Aviv)</h3></button></div>
+
+<div id="example_4"><button type="button" onclick="displayResult_4()"><h3>4. Detail Info (3/21 PhoneCall with Aviv)</h3></button></div>
+
+<div id="example_5"><button type="button" onclick="displayResult_5()"><h3>5. Schedule (3/21 PhoneCall with Aviv)</h3></button></div>
+
+<div id="example_6"><button type="button" onclick="displayResult_6()"><h3>6. Mood (3/21 PhoneCall with Aviv)</h3>	</button></div>
+
+<div id="example_7"><button type="button" onclick="displayResult_7()"><h3>7. Mood interaction with Aviv</h3></button></div>
+
+<div id="example_8"><button type="button" onclick="displayResult_8()"><h3>8. Mood interaction with Aviv/Maggie (right: most recent)</h3></button></div>
+
+<div id="example_9"><button type="button" onclick="displayResult_9()"><h3>9. Important Phone Call</h3></button></div>
+
+<div id="example_10"><button type="button" onclick="displayResult_10()"><h3>10. Schedule List</h3></button></div>
+
+
+</body>
+</html>

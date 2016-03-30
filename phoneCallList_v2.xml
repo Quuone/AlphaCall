@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<PhoneCallList>
+
+    <PhoneCall callID='1'>
+        <PersonInfo>
+            <Name>Aviv</Name>
+            <Relation>professor</Relation>
+            <Age>30</Age>
+            <PhoneNumber>01012345678</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-21</Date>
+            <Time_Start>17:30:02</Time_Start>
+            <Time_End>17:33:28</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Homework'>
+            <InDetail>Need to submit homework by next Wednesday</InDetail>
+            <Mood>soso</Mood>
+            <Schedule>homework, Due:Mar.30th</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='2'>
+        <PersonInfo>
+            <Name>Evelyn</Name>
+            <Relation>friend</Relation>
+            <Age>25</Age>
+            <PhoneNumber>01098508651</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-22</Date>
+            <Time_Start>12:30:02</Time_Start>
+            <Time_End>13:33:28</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Family'>
+            <InDetail>Her baby learned Korean</InDetail>
+            <Mood>happy</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>3</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='3'>
+        <PersonInfo>
+            <Name>James</Name>
+            <Relation>uncle</Relation>
+            <Age>58</Age>
+            <PhoneNumber>01077371235</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-23</Date>
+            <Time_Start>12:35:02</Time_Start>
+            <Time_End>12:35:28</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Health'>
+            <InDetail>He caught a bad cold</InDetail>
+            <Mood>sad</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>4</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='4'>
+        <PersonInfo>
+            <Name>Maggie</Name>
+            <Relation>girlfriend</Relation>
+            <Age>27</Age>
+            <PhoneNumber>01072968224</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-23</Date>
+            <Time_Start>19:35:01</Time_Start>
+            <Time_End>19:37:24</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Feelings'>
+            <InDetail>She is mad at me since I haven't sent any messages after lunch</InDetail>
+            <Mood>angry</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='5'>
+        <PersonInfo>
+            <Name>Maggie</Name>
+            <Relation>girlfriend</Relation>
+            <Age>27</Age>
+            <PhoneNumber>01072968224</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-23</Date>
+            <Time_Start>23:00:09</Time_Start>
+            <Time_End>23:58:21</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Feelings'>
+            <InDetail>She gets better because of my sincere apology</InDetail>
+            <Mood>soso</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='6'>
+        <PersonInfo>
+            <Name>Rick</Name>
+            <Relation>brother</Relation>
+            <Age>22</Age>
+            <PhoneNumber>01064207124</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-24</Date>
+            <Time_Start>17:17:17</Time_Start>
+            <Time_End>17:23:52</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Interview'>
+            <InDetail>He did well in his job interview</InDetail>
+            <Mood>happy</Mood>
+            <Schedule>Have chicken with him tonight</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>2</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='7'>
+        <PersonInfo>
+            <Name>Andrea</Name>
+            <Relation>grandmother</Relation>
+            <Age>79</Age>
+            <PhoneNumber>01024316442</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-24</Date>
+            <Time_Start>18:17:12</Time_Start>
+            <Time_End>18:20:10</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Invitation'>
+            <InDetail>She wants me to visit her</InDetail>
+            <Mood>sad</Mood>
+            <Schedule>Visit her before this summer</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>4</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='8'>
+        <PersonInfo>
+            <Name>Maggie</Name>
+            <Relation>girlfriend</Relation>
+            <Age>27</Age>
+            <PhoneNumber>01072968224</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-25</Date>
+            <Time_Start>13:17:12</Time_Start>
+            <Time_End>13:26:10</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Invitation'>
+            <InDetail>She wants me to visit her for having dinner with her</InDetail>
+            <Mood>happy</Mood>
+            <Schedule>Visit her this evening</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='9'>
+        <PersonInfo>
+            <Name>Aviv</Name>
+            <Relation>professor</Relation>
+            <Age>30</Age>
+            <PhoneNumber>01012345678</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-25</Date>
+            <Time_Start>23:14:12</Time_Start>
+            <Time_End>23:26:50</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Project'>
+            <InDetail>Professor wants my 1st draft asap</InDetail>
+            <Mood>soso</Mood>
+            <Schedule>Prepare 1st draft by next Monday</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='10'>
+        <PersonInfo>
+            <Name>Maggie</Name>
+            <Relation>girlfriend</Relation>
+            <Age>27</Age>
+            <PhoneNumber>01072968224</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-26</Date>
+            <Time_Start>00:33:01</Time_Start>
+            <Time_End>01:16:26</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Family'>
+            <InDetail>She is sad because of some trouble between parents</InDetail>
+            <Mood>sad</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='11'>
+        <PersonInfo>
+            <Name>Steve</Name>
+            <Relation>friend</Relation>
+            <Age>28</Age>
+            <PhoneNumber>01012652320</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-26</Date>
+            <Time_Start>07:33:01</Time_Start>
+            <Time_End>07:34:26</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Invitation'>
+            <InDetail>He plans to have a futsal game and wants me to join</InDetail>
+            <Mood>fun</Mood>
+            <Schedule>Playground in school, Mar.27th 07:00pm</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>3</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='12'>
+        <PersonInfo>
+            <Name>Steve</Name>
+            <Relation>friend</Relation>
+            <Age>28</Age>
+            <PhoneNumber>01012652320</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-26</Date>
+            <Time_Start>15:03:01</Time_Start>
+            <Time_End>15:05:26</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Health'>
+            <InDetail>He becomes impossible to join the futsal since his sister is sick and there is no one to take care of</InDetail>
+            <Mood>sad</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>4</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='13'>
+        <PersonInfo>
+            <Name>Aviv</Name>
+            <Relation>professor</Relation>
+            <Age>30</Age>
+            <PhoneNumber>01012345678</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-26</Date>
+            <Time_Start>17:30:01</Time_Start>
+            <Time_End>17:35:21</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Project'>
+            <InDetail>He wants my 1st draft asap, in Sunday it is possible</InDetail>
+            <Mood>soso</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>2</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='14'>
+        <PersonInfo>
+            <Name>Maggie</Name>
+            <Relation>girlfriend</Relation>
+            <Age>27</Age>
+            <PhoneNumber>01072968224</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-27</Date>
+            <Time_Start>09:53:01</Time_Start>
+            <Time_End>10:17:23</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Homework'>
+            <InDetail>She needs my help for homework from professor Aviv's class</InDetail>
+            <Mood>soso</Mood>
+            <Schedule>Meet her this afternoon and help</Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>5</Rating>
+            <PushOnOff>Off</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+    <PhoneCall callID='15'>
+        <PersonInfo>
+            <Name>Mary</Name>
+            <Relation>aunt</Relation>
+            <Age>49</Age>
+            <PhoneNumber>01067484564</PhoneNumber>
+        </PersonInfo>
+        <TimeInfo>
+            <Date>2016-03-27</Date>
+            <Time_Start>12:06:01</Time_Start>
+            <Time_End>12:12:23</Time_End>
+        </TimeInfo>
+        <ContentInfo keyword='Family'>
+            <InDetail>Her son gets a scholarship</InDetail>
+            <Mood>happy</Mood>
+            <Schedule></Schedule>
+        </ContentInfo>
+        <ImportanceInfo>
+            <Rating>2</Rating>
+            <PushOnOff>On</PushOnOff>
+        </ImportanceInfo>
+    </PhoneCall>
+
+</PhoneCallList>
